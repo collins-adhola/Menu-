@@ -1,14 +1,78 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
 <html>
 <head>
 
+
+
 <title>Menu List</title>
+
+<style>
+body {
+Text-align: justify ;
+background-color: grey;
+}
+h2 , h3 {
+Color:pink ;
+text-shadow: 1px 1px 3px #666666;
+padding: 20px
+background-color:silver;
+border: cream;
+}
+
+ul {
+list-style-type:circle;
+}
+<link href="style" rel="stylesheet"type="text/css"/>
+
+
+/*
+margins
+borders
+paddings
+these are the elements in a css box*/
+
+.box {
+	background:pink;
+	width: 300px;
+}
+
+
+</style>
+
+
+
+
+
 <a href="#End"><right>Skip to bottom</right></a><br />
 
+
+
 <h3> <center>Welcome to my first web page</center></h3>
+
 <center><img src="kitten.jpeg"></center>
+
+
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+
 </head>
 
+
+
+
 <body>
+
+
+
+
+
 
 <h1 id="top"><center>Menus and Recipes<center></h1>
 
@@ -70,6 +134,7 @@ This is so simple and yummy!
 <li>finely grated, plus extra to serve</li>
 </ul>
 </p>
+
 <p>
 <h2 id="Bangers and Mash"> Bangers and Mash</h2>
 </p>
@@ -77,9 +142,10 @@ This is so simple and yummy!
 <p>
 <img src="sausage.JPEG" alt="bangers and mash" width=300 height=300">
 </p>
+<p>
 <h3>Ingredients</h3>
 
-<p><ul>
+<ul>
 <li> 900g/2lb floury potatoes, peeled and cubed</li>
 
 <li>1 tbsp sunflower oil</li>
@@ -96,20 +162,20 @@ This is so simple and yummy!
 
 <li>3 spring onions, finely chopped</li>
 <li>1 tbsp olive oil</li>
+</ul>
+</p>
 
-<h3>
-Method
-</h3>
-<p>
+<h3>Method</h3>
 <ol>
 <li>Cook the potatoes in boiling salted water for 10-12 minutes or until soft.</li>
-<li>Heat the sunflower oil in a heavy-based saucepan. Add the onion and cook until soft. Stir in the mustard then pour in the stock. Bring the mixture to the boil, then add the    gravy.<\li> 
+<li>Heat the sunflower oil in a heavy-based saucepan. Add the onion and cook until soft. Stir in the mustard then pour in the stock. Bring the mixture to the boil, then add the gravy.</li> 
 <li>browning. Reduce for 10 minutes or until the liquid is reduced by half.</li>
 <li>Heat up a frying pan, add a little sunflower oil and fry the sausages for 6-8 minutes or until cooked through.</li>
 <li>Drain the potatoes and mash with the butter and the cream. Blend the blanched herbs with the olive oil to form a paste and then stir into the mashed potato.</li>
 <li>Pile the mash onto four warmed serving plates. Place two sausages in the centre of each mound of mash and finally drizzle over the gravy.</li>
 <li>Serve immediately.</li>
-</ol><br />
+</ol>
+<br />
 
 <p>
 <form action="http://www.example.com/profile.php">
@@ -131,6 +197,14 @@ Method
 <input type="radio" name="meal" value="Bangers and Mash" checked="checked" />Bangers and Mash
 </p>
 
+<form action="http://www.example.com/profile.php">
+<p>What is your favourite <strong>city?</strong></p>
+<select name="city">
+<option value="London">London</option>
+<option value="Paris">Paris</option>
+<option value="Amsterdams">Amsterdams</option>src</select>
+</forms>
+
 
 <form action="http://www.example.com/comments.php">
 <h3>Give reasons for your choice</h3>
@@ -144,18 +218,32 @@ Method
 <li><a href="#Bangers and Mash">Mashed potatoes and Sausages</a></li><br />
 </ul>
 
+<form action="http://www.example.com/profile.php">
+<p>Do you play any of the following instruments? (You can select more than one option by holding down control on a PC or command on a Mac while selecting a different options.)</p>
+<select name="instruments" size="3" multiple="multiple">
+<option value="guitar"selected="selected">Guitar</options>
+<option value="Drums"selected="selected">Drums</options>
+<option value="Keyboard"selected="selected">Keyboard</options>
+<option value="Bass"selected="selected">Bass</options>
+</select>
+</form>
 
 
-<p><h5 id="End">End</h5></p>
+
+
+
+
 <p><a href="#top">Return to Top</a>
 
 
 
 
-
-
+<img src="kitten.jpeg">
+	
+<p><h5 id="End">End</h5></p>
 
 </body>
+
 
 </html>
 
